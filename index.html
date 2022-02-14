@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Lab 5</title>
+	<style>
+		table, th, td {
+			border:1px solid white;
+		}
+		
+		td {
+			text-align: center;
+		}
+		
+		body {
+			background-color: black;
+		}
+	
+		#para0 {
+			text-align: center;
+			color: white;
+		}
+		
+		#para1 {
+			color: red;
+		}
+		
+		#para2 {
+			color: orange;
+		}
+		
+		#para3 {
+			color: yellow;
+		}
+		
+		#para4 {
+			color: lightgreen;
+		}
+		
+		#para5 {
+			color: green;
+		}
+		
+		#para6 {
+			color: blue;
+		}
+		
+		#para7 {
+			color: purple;
+		}
+		
+		h1 {
+			color:white;
+			margin-left: 40px;
+			font-size: 300%;
+		}
+
+		
+		.circle1 {
+			height: 50px;
+			width: 50px;
+			background-color: yellow;
+			border-radius: 50%;
+		}
+		
+		.circle2 {
+			height: 120px;
+			width: 120px;
+			background-color: orange;
+			border-radius: 50%;
+		}
+		
+		.circle3 {
+			height: 130px;
+			width: 130px;
+			background-color: blue;
+			border-radius: 50%;
+		}
+		
+		.circle4 {
+			height: 70px;
+			width: 70px;
+			background-color: brown;
+			border-radius: 50%;
+		}
+		
+		p {
+			font-family: verdana;
+			color: white;
+		}
+		
+		h3 {
+			color: white;
+		}
+	</style>
+	<body>
+	<h1>Planets</h1>
+	<h2 id="para0">Mercury</h2>
+	<table style="width:100%">
+		<tr>
+			<th id="para1">Mass</th>
+			<th id="para2">Diameter</th>
+			<th id="para3">Mean density</th>
+			<th id="para4">Escape velocity</th>
+			<th id="para5">Avg Dist from sun</th>
+			<th id="para6">Rotation period</th>
+			<th id="para7">Revolution period</th>
+		</tr>
+		<tr>
+			<td id="para1">3.3 x 10^23</td>
+			<td id="para2">4879.4</td>
+			<td id="para3">5420</td>
+			<td id="para4">4300</td>
+			<td id="para5">0.387 AU (57,909,175 km)</td>
+			<td id="para6">58.65</td>
+			<td id="para7">87.97</td>
+		</tr>
+	</table>
+	
+	<h2 id="para0">Venus</h2>
+	<table style="width:100%">
+		<tr>
+			<th id="para1">Mass</th>
+			<th id="para2">Diameter</th>
+			<th id="para3">Mean density</th>
+			<th id="para4">Escape velocity</th>
+			<th id="para5">Avg Dist from sun</th>
+			<th id="para6">Rotation period</th>
+			<th id="para7">Revolution period</th>
+		</tr>
+		<tr>
+			<td id="para1">4.87 x 10^24</td>
+			<td id="para2">12104</td>
+			<td id="para3">5250</td>
+			<td id="para4">10400</td>
+			<td id="para5">0.723 AU (108,208,930 km)</td>
+			<td id="para6">243.02 (retrograde)</td>
+			<td id="para7">224.7</td>
+		</tr>
+	</table>
+	
+	<h2 id="para0">Earth</h2>
+	<table style="width:100%">
+		<tr>
+			<th id="para1">Mass</th>
+			<th id="para2">Diameter</th>
+			<th id="para3">Mean density</th>
+			<th id="para4">Escape velocity</th>
+			<th id="para5">Avg Dist from sun</th>
+			<th id="para6">Rotation period</th>
+			<th id="para7">Revolution period</th>
+		</tr>
+		<tr>
+			<td id="para1">5.98 x 10^24</td>
+			<td id="para2">12756</td>
+			<td id="para3">5520</td>
+			<td id="para4">11200</td>
+			<td id="para5">1 AU (149,597,890 km)</td>
+			<td id="para6">1 (23.93 hours)</td>
+			<td id="para7">365.26</td>
+		</tr>
+	</table>
+	
+	<h2 id="para0">Mars</h2>
+	<table style="width:100%">
+		<tr>
+			<th id="para1">Mass</th>
+			<th id="para2">Diameter</th>
+			<th id="para3">Mean density</th>
+			<th id="para4">Escape velocity</th>
+			<th id="para5">Avg Dist from sun</th>
+			<th id="para6">Rotation period</th>
+			<th id="para7">Revolution period</th>
+		</tr>
+		<tr>
+			<td id="para1">6.42 x 10^23</td>
+			<td id="para2">6787</td>
+			<td id="para3">3940</td>
+			<td id="para4">5000</td>
+			<td id="para5">1.524 AU (227,936,640 km)</td>
+			<td id="para6">1.026</td>
+			<td id="para7">686.98</td>
+		</tr>
+	</table>
+
+		
+		<h1>Compare the actual planet size by reducing it</h1>
+		<p>(It is not an exact value due to rounding).</p>		
+		<h3>Mercury</h3>
+		<div class="circle1"></div><br><br><p>4879.4 km<p>
+		<h3>Mars</h3>
+		<div class="circle2"></div><br><p>12104 km</p>
+		<h3>Earth</h3>
+		<div class="circle3"></div><br><p>12756 km</p>
+		<h3>Venus</h3>
+		<div class="circle4"></div><br><p>6787 km</p>
+	
+	</body>
+</html>
+	
+	
+	
+		
+			
+			
